@@ -1,0 +1,446 @@
+body, html
+{
+    height: 100%;
+    font-family: "Nunito", helvetica, sans-serif;
+    font-weight: 400;
+}
+@media screen and (min-width: 900px) and (max-width: 1150px)
+{
+    body, html
+    {
+        font-size: 85%;
+    }
+}
+@media screen and (min-width: 1150px) and (max-width: 1440px)
+{
+    body, html
+    {
+        font-size: 90%;
+    }
+}
+@media screen and (min-width: 1440px)
+{
+    body, html
+    {
+        font-size: 95%;
+    }
+}
+
+h1
+{
+    font-family: "Montserrat", helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 4.8em;
+}
+
+h2
+{
+    font-size: 2.5em;
+    line-height: 1.4em;
+}
+
+h3
+{
+    font-family: "Montserrat", helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2.9em;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h4
+{
+    font-size: 1.7em;
+    font-style: italic;
+    font-weight: 300;
+}
+
+p
+{
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:focus
+{
+    text-decoration: none;
+    color: black;
+}
+
+a.button
+{
+    font-family: "Montserrat", helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+    background: transparent;
+    border: lightgray 4px solid;
+    padding: 5px 12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a.button:hover
+{
+    border-color: #87d3ff;
+}
+
+div.row {
+    height: 100vh; }
+
+.hide-me
+{
+    opacity: 0;
+}
+
+.show-me
+{
+    opacity: 1;
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px)
+{
+    div#intro-text, div#contact-row
+    {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    div#intro-text, div#contact-row
+    {
+        text-align: left;
+    }
+}
+
+div#intro-text h1, div#contact-row h1
+{
+    margin-bottom: .7em;
+}
+
+
+div#intro-text h2, div#contact-row h2
+{
+    margin-bottom: 1em;
+}
+
+
+div#intro-text p, div#contact-row p
+{
+    font-size: 1.6em;
+    line-height: 1.5em;
+    margin-bottom: 3em;
+}
+
+div#intro-text a.underline, div#contact-row a.underline
+{
+    border-bottom: 3px solid lightgray;
+    display: inline-block;
+    position: relative;
+}
+
+div#intro-text a.underline::before, div#contact-row a.underline::before
+{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    overflow: hidden;
+    max-width: 0;
+    border-bottom: 3px solid #87d3ff;
+    content: attr(data-hover);
+    -webkit-transition: max-width 0.3s;
+    -moz-transition: max-width 0.3s;
+    transition: max-width 0.3s;
+    white-space: nowrap;
+}
+
+div#intro-text a.underline:hover::before, div#contact-row a.underline:hover::before
+{
+    max-width: 100%;
+}
+
+
+div#intro-text a.button, div#contact-row a.button
+{
+    font-size: 1.5em;
+}
+
+
+div.modal .modal-title
+{
+    font-family: "Nunito", helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+
+div.modal .modal-body p
+{
+    font-size: 1.3em;
+}
+
+@media screen and (min-width: 768px)
+{
+    #jump-modal .modal-dialog
+    {
+        width: 800px;
+    }
+}
+
+
+#jump-modal img
+{
+    margin-bottom: 20px;
+}
+
+
+ul#projects-menu
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px 8.333% 20px 0;
+    margin-top: 0px;
+    background-color: white;
+    z-index: 70;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul#projects-menu li
+{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+ul#projects-menu a
+{
+    font-family: "Montserrat", helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+ul#projects-menu li.active a
+{
+    font-weight: 700;
+    color: black;
+}
+
+ul#projects-menu a:hover
+{
+    font-weight: 700;
+    color: black;
+}
+
+div.title
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+div.content
+{
+    text-align: center;
+}
+
+div.content div
+{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+div.img
+{
+    margin-right: 15px;
+    max-width: 30%;
+}
+
+img
+{
+    height: 18.5em;
+    width: auto;
+}
+
+div.text
+{
+    width: 30%;
+    text-align: left;
+    margin-left: 15px;
+}
+
+div.text p
+{
+    margin-bottom: 30px;
+}
+
+
+div.buttons-block a.button
+{
+    margin-right: 1em;
+    display: inline-block;
+}
+
+div.fp-controlArrow
+{
+    border: none !important;
+    width: 3em !important;
+    height: 3em !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+div.fp-prev
+{
+    background-image: url(img/prev.png);
+    left: 8.333% !important;
+}
+
+
+div.fp-next
+{
+    background-image: url(img/next.png);
+    right: 8.333% !important;
+}
+
+
+div.fp-slidesNav
+{
+    margin-bottom: 20px;
+}
+
+div.fp-slidesNav li
+{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+div.fp-slidesNav a
+{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.fp-slidesNav span
+{
+    display: none;
+}
+
+div.fp-slidesNav a
+{
+    background-image: url("img/dot_gray.png");
+}
+
+div.fp-slidesNav a.active
+{
+    background-image: url("img/dot_blue.png");
+}
+
+
+div.fp-slidesNav a:hover
+{
+    background-image: url("img/dot_blue.png");
+}
+
+/*!* line 250, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss *!*/
+/*#mobile-row div.fp-slidesNav a {*/
+    /*background-image: url("/img/dots-v2/mobile.png"); }*/
+
+/*!* line 251, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss *!*/
+/*#mobile-row div.fp-slidesNav a.active {*/
+    /*background-image: url("/img/dots-v2/mobile-active.png"); }*/
+
+/*!* line 252, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss *!*/
+/*#mobile-row div.fp-slidesNav a:hover {*/
+    /*background-image: url("/img/dots-v2/mobile-active.png"); }*/
+
+/*!* line 256, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss *!*/
+/*#web-row div.fp-slidesNav a {*/
+    /*background-image: url("/img/dots-v2/web.png"); }*/
+
+/*!* line 257, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss *!*/
+/*#web-row div.fp-slidesNav a.active {*/
+    /*background-image: url("/img/dots-v2/web-active.png"); }*/
+
+/*!* line 258, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss *!*/
+/*#web-row div.fp-slidesNav a:hover {*/
+    /*background-image: url("/img/dots-v2/web-active.png"); }*/
+
+/*!* line 262, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss *!*/
+/*#design-row div.fp-slidesNav a {*/
+    /*background-image: url("/img/dots-v2/design.png"); }*/
+
+/*!* line 263, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss *!*/
+/*#design-row div.fp-slidesNav a.active {*/
+    /*background-image: url("/img/dots-v2/design-active.png"); }*/
+
+/*!* line 264, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss *!*/
+/*#design-row div.fp-slidesNav a:hover {*/
+    /*background-image: url("/img/dots-v2/design-active.png"); }*/
+
+/*!* line 268, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss *!*/
+/*#misc-row div.fp-slidesNav a {*/
+    /*background-image: url("/img/dots-v2/misc.png"); }*/
+
+/*!* line 269, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss *!*/
+/*#misc-row div.fp-slidesNav a.active {*/
+    /*background-image: url("/img/dots-v2/misc-active.png"); }*/
+
+/*!* line 270, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss *!*/
+/*#misc-row div.fp-slidesNav a:hover {*/
+    /*background-image: url("/img/dots-v2/misc-active.png"); }*/
+
+/* line 274, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss */
+div.slide ol {
+    padding-left: 20px;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    margin-bottom: 0; }
+/* line 279, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss */
+div.slide ol li {
+    margin-bottom: 5px; }
+
+/* line 282, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss */
+div.slide ul {
+    font-size: 1.4em;
+    line-height: 1.5em; }
+
+/* line 287, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss */
+div#contact-row {
+    text-align: center; }
+/* line 289, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss */
+div#contact-row h3 {
+    margin-bottom: 30px; }
+/* line 290, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss */
+div#contact-row p {
+    padding: 0 25%;
+    margin-bottom: 50px; }
+/* line 291, /Users/clairehuang/Sites/personal-portfolio/scss/v2.scss */
+div#contact-row a.button {
+    font-size: 1.3em; }
+
+/*# sourceMappingURL=v2.css.map */
