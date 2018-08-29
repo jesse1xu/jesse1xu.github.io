@@ -85,6 +85,13 @@ a:focus
     color: black;
 }
 
+a.button-between
+{
+    font-family: "Montserrat", helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
 a.button
 {
     font-family: "Montserrat", helvetica, sans-serif;
