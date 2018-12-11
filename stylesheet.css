@@ -42,7 +42,7 @@ h2
 
 #searchpic
 {
-    margin-top: -40px;
+    margin-top: -50px;
 }
 
 #hexpic
@@ -53,6 +53,17 @@ h2
 #breathpic
 {
     margin-top: -80px;
+}
+
+#diskreaderpic
+{
+    margin-top: -70px;
+    width: 400px;
+}
+
+#fnarvid
+{
+    width: 400px;
 }
 
 h3
