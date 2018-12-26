@@ -47,7 +47,7 @@ $(document).ready(function()
 
                     $("#intro2").decrypt_effect({
                         speed: 9,
-                        decrypted_text: "When I'm not up to my eyes in coursework, I enjoy fiddling in Visual Studio, going for long runs, and watching Philly sports teams.",
+                        decrypted_text: "When I'm not up to my eyes in coursework, I enjoy fiddling in Javascript, cooking, and watching Philly sports teams.",
                         callback: function()
                         {
                             $("#intro2").html("When I'm not up to my eyes in <a class=\"underline\" data-hover=\"coursework\" data-toggle=\"modal\" data-target=\"#classes-modal\">coursework</a>, I enjoy fiddling in Visual Studio, going for long runs, and watching Philly sports teams.");
