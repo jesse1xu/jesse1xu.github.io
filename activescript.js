@@ -38,10 +38,10 @@ $(document).ready(function()
                 {
                     $("h2").decrypt_effect({
                         speed: 9,
-                        decrypted_text: "I'm Jesse, a sophomore at the University of Pennsylvania passionate about delivering functionality with unhindered user experience.",
+                        decrypted_text: "I'm Jesse, a junior at the University of Pennsylvania passionate about delivering functionality with unhindered user experience.",
                         callback: function()
                         {
-                            $("h2").html("I'm Jesse, a sophomore at the University of Pennsylvania passionate about delivering <strong style=\"color: #87d3ff;\">functionality</strong> with <strong style=\"color: #87d3ff;\">unhindered user experience</strong>.");
+                            $("h2").html("I'm Jesse, a junior at the University of Pennsylvania passionate about delivering <strong style=\"color: #87d3ff;\">functionality</strong> with <strong style=\"color: #87d3ff;\">unhindered user experience</strong>.");
                         }
                     });
 
