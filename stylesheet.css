@@ -40,7 +40,7 @@ h2
 
 }
 
-#searchpic
+/* #searchpic
 {
     margin-top: -50px;
 }
@@ -48,14 +48,14 @@ h2
 #hexpic
 {
     margin-top: -60px;
-}
+} */
 
 #breathpic
 {
-    margin-top: -80px;
+    margin-top: -11px;
 }
 
-#diskreaderpic
+/* #diskreaderpic
 {
     margin-top: -70px;
     width: 400px;
@@ -64,7 +64,7 @@ h2
 #fnarvid
 {
     width: 400px;
-}
+} */
 
 h3
 {
@@ -298,6 +298,7 @@ div.title
 div.content
 {
     text-align: center;
+    height: 20em;
 }
 
 div.content div
@@ -305,6 +306,7 @@ div.content div
     display: inline-block;
     vertical-align: middle;
     float: none;
+    height: 100%;
 }
 
 div.img
@@ -315,7 +317,7 @@ div.img
 
 img
 {
-    height: 18.5em;
+    height: 100%;
     width: auto;
 }
 
