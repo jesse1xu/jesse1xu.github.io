@@ -43,7 +43,7 @@ $(document).ready(function()
                         {
                             setTimeout(() => {
                                 $("h2").html("I'm Jesse, a senior at the University of Pennsylvania passionate about <strong style=\"color: #87d3ff;\">entrepreneurship</strong>, <strong style=\"color: #87d3ff;\">product management</strong>, and <strong style=\"color: #87d3ff;\">app design</strong>.");
-                            }, 1000);
+                            }, 300);
                         }
                     });
 
@@ -54,7 +54,7 @@ $(document).ready(function()
                         {
                             setTimeout(() => {
                                 $("#intro2").html("When I'm not up to my eyes in <a class=\"underline\" data-hover=\"coursework\" data-toggle=\"modal\" data-target=\"#classes-modal\">coursework</a>, I enjoy fiddling, cooking, and watching Philly sports teams.");
-                            }, 1000);
+                            }, 300);
                             
                         }
                     });
