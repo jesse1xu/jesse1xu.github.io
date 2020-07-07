@@ -319,6 +319,7 @@ img
 {
     height: 100%;
     width: auto;
+    max-width: 30em;
 }
 
 div.text
