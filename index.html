@@ -23,8 +23,8 @@
 <!-- FULL WIDTH BOOTSTRAP CONTAINER -->
 <div class="container-fluid">
     <ul class="menu col-sm-offset-1 col-sm-11 hide-me" id="projects-menu">
-        <li data-menuanchor="webmobile"><a href="#webmobile" class="active">Web and Mobile</a></li>
-        <li data-menuanchor="system"><a href="#system">System Apps</a></li>
+        <li data-menuanchor="webmobile"><a href="#webmobile" class="active">Personal Projects</a></li>
+        <li data-menuanchor="system"><a href="#system">Work Portfolio</a></li>
         <li data-menuanchor="gadgets"><a href="#gadgets">Gadgets</a></li>
         <li data-menuanchor="design"><a href="#design">Graphic Design</a></li>
         <li data-menuanchor="contact"><a href="#contact"><span style="color: #87d3ff;">contact me</span></a></li>
@@ -33,8 +33,8 @@
         <div class="row section" id="intro-row">
             <div class="col-sm-8 col-sm-offset-2" id="intro-text">
                 <h1>Lorem Ipsum</h1>
-                <h2>Aenean nec lobortis tellus. Maecenas lectus nibh, vehicula volutpat vel, finibus at nunc. Phasellus tincidunt lacus non posuere.</h2>
-                <p id="intro2">In at elit varius erat ultrices pellentesque. Aenean sed condimentum est. Suspendisse quis magna nibh. Aliquam amet.</p>
+                <h2>Aliquam porttitor, nisl sed congue scelerisque, lorem nunc scelerisque erat, nec ornare arcu leo et eros. Aenean non augue.</h2>
+                <p id="intro2">In at elit varius erat ultrice. Aenean sed condimentum est. Suspendisse quis magna nibh. Aliquam amet.</p>
                 <div style="text-align: center;">
                     <a href="#webmobile" class="button">see my projects</a>
                     <a class="button-between">&nbspor&nbsp</a>
@@ -43,54 +43,95 @@
             </div>
         </div>
 
+        <!-- /// Personal Projects /// -->
+
         <div class="row section" id="webmobile-row">
             <div class="slide">
                 <div class="title">
                     <h3>PennBook</h3>
-                    <h4>Music-themed social media site for NETS212</h4>
+                    <h4>Music-themed social media site</h4>
                 </div>
                 <div class="content">
                     <div class="img">
                         <img id="pennbook" src="img/pennbook.PNG" /></div>
                     <div class="text">
                         <p>
-                            As the final project for my Networks and Cloud Computing class, I designed and coded a Facebook clone with the help of node.js and Amazon AWS's dynamoDB as backend. Its features include profile pages, status updates, friend requests, a live chat, and a friend recommendation algorithm, as well as network visualizer run through Hadoop MapReduce.
+                            As the final project for my Networks and Cloud Computing class, I designed and coded a Facebook clone in node.js with Amazon AWS's dynamoDB serving as a database. Its features include profile pages, status updates, friend requests, a live chat, and a friend recommendation algorithm, as well as a network visualizer run through Hadoop MapReduce.
                         </p>
                         <div class="buttons-block">
-                            <a href="https://youtu.be/VFh9cOH0iRc?fbclid=IwAR2WKmclCcsvudXP-oEEc4sqenykTQkYurn36Uirp7OR3CK0DF7vfFWQ9eA" class="button">check out the demo!</a>
+                            <a href="https://youtu.be/VFh9cOH0iRc?fbclid=IwAR2WKmclCcsvudXP-oEEc4sqenykTQkYurn36Uirp7OR3CK0DF7vfFWQ9eA" class="button">demo</a>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="slide">
+                <div class="title">
+                    <h3>Echo</h3>
+                    <h4>The best wake-up call is yourself</h4>
+                </div>
+                <div class="content">
+                    <div class="img">
+                        <img src="img/Echo.jpg">
+                    </div>
+                    <div class="text">
+                        <p><i>(Work in progress)</i> Coded in React Native, Echo is an iOS lifestyle app that allows you to create less invasive alarms with an audio message. After users record an audio clip that includes their desired time, the app uses voice-recognition software to set a corresponding ping at that time.</p>
+                        <div class="buttons-block">
+                            <a class="button">coming soon!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="slide">
                 <div class="title">
                     <h3>SearchLt</h3>
-                    <h4>chrome extension for convenient page searching</h4>
+                    <h4>Chrome extension for convenient page searching</h4>
                 </div>
                 <div class="content">
                     <div class="img">
                         <img id="searchpic" src="img/Searchlt.png" /></div>
                     <div class="text">
                         <p>
-                            The purpose of the extension is to provide users with an alternative to chrome's native page search. Based off of a feature of many popular programming IDEs, users can double-click or select a term to highlight similar references throughout the page. The latest version of SearchLt also extends search engine functionality. Key terms from a search are passively highlighted on-screen after opening a page result.
+                            This extension provides users with an alternative to chrome's native page search. Based off of a feature of many popular programming IDEs, users can double-click or select a term to highlight references throughout the page, as well as show key search terms if navigating to a page from a search engine.
                         </p>
                         <div class="buttons-block">
-                            <a href="https://github.com/jesse1xu/SearchLight" class="button">check out the store!</a>
+                            <a href="https://github.com/jesse1xu/SearchLight" class="button">chrome store</a>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="slide">
+                <div class="title">
+                    <h3>NoisYC</h3>
+                    <h4>Find peace and quiet in the big apple</h4>
+                </div>
+                <div class="content">
+                    <div class="img">
+                        <img src="img/NoisYC.jpg" /></div>
+                    <div class="text">
+                        <p>
+                            Inspired by my NYC apartment hunt, I made NoisYC to help travelers find the quietest (or rowdiest) Airbnbs in the big city. Built with the Google Maps API and data persisted in OracleDB and MongoDB.
+                        </p>
+                        <div class="buttons-block">
+                            <a href="https://youtu.be/VGs5YpjZbMA" class="button">demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="slide">
                 <div class="title">
                     <h3>The International Affairs Association</h3>
-                    <h4>website redesign for one of Penn's largest organizations</h4>
+                    <h4>Website redesign for one of Penn's largest organizations</h4>
                 </div>
                 <div class="content">
                     <div class="img">
                         <img id="upmunc" src="img/upmunc.png" /></div>
                     <div class="text">
                         <p>
-                            I rebuilt and currently maintain the website for Penn IAA's collegiate Model UN conference. I wanted to create a site that was more intuitive and easier to navigate than the last, and could also be easily updated for each iteration of the conference.
+                            <i>(May 2020: Temporarily private)</i> I rebuilt and currently maintain the website for the Penn International Affairs Association, the largest club at Penn by membership. I wanted to create a site that was intuitive and easier to navigate than the last, and could also be easily updated for each iteration of the conference. Hosted on Heroku with Python backend.
                         </p>
                         <div class="buttons-block">
                             <a target="_blank" href="http://www.upmunc.org/" class="button">live site</a>
@@ -98,27 +139,11 @@
                     </div>
                 </div>
             </div>
-            <div class="slide">
-                <div class="title">
-                    <h3>Echo</h3>
-                    <h4>the best wake-up call is yourself</h4>
-                </div>
-                <div class="content">
-                    <div class="img">
-                        <img src="img/projects/thumbs-v2/parrot.png">
-                    </div>
-                    <div class="text">
-                        <p><i>(Work in progress)</i> Coded in React Native, Echo is an iOS lifestyle app that allows you to create alarms with your own audio message. After users record an audio clip that includes their desired time, the app uses voice-recognition software to set a corresponding alarm that echoes the user.</p>
-                        <div class="buttons-block">
-                            <a target="_blank" href="https://vimeo.com/232408077" class="button">demo</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <div class="slide">
                 <div class="title">
                     <h3>SideWinder</h3>
-                    <h4>a multiplayer twist on the classic game of snake</h4>
+                    <h4>Multiplayer twist on the classic game of snake</h4>
                 </div>
                 <div class="content">
                     <div class="img">
@@ -129,54 +154,38 @@
                             SideWinder was my first exposure to working with React Native. Two players each control a side of a single screen in this take on a classic.  <br><br>
                             The objective of the game is to derail the other player's snake while collecting power-ups and avoiding collision with the walls, your tail, or the other snake.
                         </p>
-                        <div class="buttons-block">
+                        <!-- <div class="buttons-block">
                             <a target="_blank" href="https://vimeo.com/232408077" class="button">demo</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /// Work Portfolio /// -->
+
+        <div class="row section" id="system-row">
+            <div class="slide">
+                <div class="title">
+                    <h3>ThousandEyes Recorder</h3>
+                    <h4>Automating browser transaction tests</h4>
+                </div>
+                <div class="content">
+                    <div class="img">
+                        <img src="img/recorder.gif">
+                    </div>
+                    <div class="text">
+                        <p>
+                            The ThousandEyes Recorder is a standalone application that allows users to record through a companion browser or script their own synthetic browser tests.<br><br>
+                            As my project over the course of two internships, I implemented custom scripting capabilities, allowing users to code and modify their own tests — a major customer use case. Built in electron with Selenium Webdriver.
+                        </p>
+                        <div class="buttons-block">
+                            <a href="https://www.thousandeyes.com/" class="button">give it a try</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--<div class="slide">-->
-                <!--<div class="title">-->
-                    <!--<h3>"Clappy Bird" and Pacman</h3>-->
-                    <!--<h4>retro games on bare metal Raspberry Pi</h4>-->
-                <!--</div>-->
-                <!--<div class="content">-->
-                    <!--<div class="img">-->
-                        <!--<img src="img/projects/thumbs-v2/pacman.png">-->
-                    <!--</div>-->
-                    <!--<div class="text">-->
-                        <!--<p>For our computer systems class (CS 107E), two classmates and I built games on bare metal Raspberry Pi. <br><br>-->
-                            <!--<b>"Clappy Bird":</b> a variant of Flappy Bird, with an original graphics library and audio-based controls (clapping makes the bird move). <br><br>-->
-                            <!--<b>Pacman:</b> the classic, with original graphics, ghost AIs, and arcade button controls.-->
-                        <!--</p>-->
-                        <!--<div class="buttons-block">-->
-                            <!--<a target="_blank" href="https://photos.google.com/share/AF1QipOZN8UepNJBsOQnc1CF3RmjtocRzoOIqBnQ-PEVc27j9_DMB8KGPCLexSWCZe1Epg?key=Uzl0TjRTUWppNUFwaGNyQ2dveWxjekRBUFVMNG9B" class="button">videos</a>-->
-                            <!--<a href="https://github.com/cs107e/16chuang-mratan1-swkonz-project" class="button">code</a>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="slide">-->
-                <!--<div class="title">-->
-                    <!--<h3>FIRST Robotics, Team 1700</h3>-->
-                    <!--<h4>four years of robot-building fun!</h4>-->
-                <!--</div>-->
-                <!--<div class="content">-->
-                    <!--<div class="img">-->
-                        <!--<img src="img/projects/thumbs-v2/frc.png">-->
-                    <!--</div>-->
-                    <!--<div class="text">-->
-                        <!--<p>Participating in and later leading my high school's all-girls robotics team was a formative technical and leadership experience. Through robotics, I uncovered my interest in computer science, the thrill of collaboration, and the power of confident women in STEM.<br><br>(That's me and our 2015 bot in the picture!)</p>-->
-                        <!--<div class="buttons-block">-->
-                            <!--<a href="#" class="button">see our robots</a>-->
-                            <!--<a target="_blank" href="http://gatorbotics.org/" class="button">team site</a>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        </div>
-
-        <div class="row section" id="system-row">
+            
             <div class="slide">
                 <div class="title">
                     <h3>DiskReader</h3>
@@ -192,11 +201,12 @@
                             I designed and created the application as an alternative solution to classifying the various types of disks that the Unisys software ran on. Previously, the only way to identify a disk was to inspect it through a Hex editor. Built with Visual Studio's WPF framework and a C# backend.
                         </p>
                         <div class="buttons-block">
-                            <a href="https://github.com/jesse1xu/DiskReader" class="button">demo</a>
+                            <a href="https://github.com/jesse1xu/DiskReader" class="button">code</a>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="slide">
                 <div class="title">
                     <h3>HexEd</h3>
@@ -208,8 +218,8 @@
                     </div>
                     <div class="text">
                         <p>
-                            As an intern for Unisys, I was first tasked with adding the ability to open physical drives (such as C:\) to their existing Hex editor tool.<br><br>
-                            After adding in an option for engineers to create handles to all physical drives on a system to view them, I then made several improvements to the UI including line numbers, byte navigation, and optimized the scrollbar to handle large file sizes.
+                            As an intern for Unisys, I added the ability to open physical drives (such as C:\) to their existing Hex editor tool.<br><br>
+                            After adding in an option for engineers to create handles to all physical drives on a system to view them, I made several improvements to the UI including line numbers, byte navigation, and optimized the scrollbar to handle large file sizes.
                         </p>
 
                         <div class="buttons-block">
@@ -218,55 +228,9 @@
                     </div>
                 </div>
             </div>
-            <!--<div class="slide">-->
-                <!--<div class="title">-->
-                    <!--<h3>Be a Good Doctor</h3>-->
-                    <!--<h4>website redesign for a Stanford student group</h4>-->
-                <!--</div>-->
-                <!--<div class="content">-->
-                    <!--<div class="img">-->
-                        <!--<img src="img/projects/thumbs-v2/bagd.png">-->
-                    <!--</div>-->
-                    <!--<div class="text">-->
-                        <!--<p>Given a few concept sketches from Stanford-based nonprofit incubator, I designed mockups in Sketch and worked on a custom, responsive Wordpress theme for their new website.<br><br>I aimed to capture the group’s professionalism yet openness by using modest sans-serif fonts, lively colors, and rounded graphics.</p>-->
-                        <!--<div class="buttons-block">-->
-                            <!--<a href="#" class="button">design process</a>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="slide">-->
-                <!--<div class="title">-->
-                    <!--<h3>GoVoluntr</h3>-->
-                    <!--<h4>interactive user guide for a volunteering startup</h4>-->
-                <!--</div>-->
-                <!--<div class="content">-->
-                    <!--<div class="img">-->
-                        <!--<img src="img/projects/thumbs-v2/govo.png">-->
-                    <!--</div>-->
-                    <!--<div class="text">-->
-                        <!--<p>In anticipation of GoVoluntr’s expansion campaign, I built this online tutorial to show new nonprofit users how to navigate their accounts and post and manage volunteer opportunities on the GoVoluntr site.<br><br>This was my first web design project, and I focused on including large, interactive screenshots and friendly text.</p>-->
-                        <!--<div class="buttons-block">-->
-                            <!--<a target="_blank" href="http://learn.govoluntr.com/nonprofit/tutorial/" class="button">view the site</a>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="slide">-->
-                <!--<div class="title">-->
-                    <!--<h3>Smart Mirror</h3>-->
-                    <!--<h4>mirror, mirror, on the wall...what's the weather at nightfall?</h4>-->
-                <!--</div>-->
-                <!--<div class="content">-->
-                    <!--<div class="img">-->
-                        <!--<img src="img/projects/thumbs-v2/tbd.png">-->
-                    <!--</div>-->
-                    <!--<div class="text">-->
-                        <!--<p style="margin-bottom: 0 !important;">Inspired by some photos online, I decided to make a smart mirror with a custom-built Meteor JS web app, an Amazon Fire tablet, and a sheet of two-way mirror acrylic.<br><br>The mirror updates the current time, weather, and breaking news in real time using Meteor’s reactive variables and publish-subscribe pattern.</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
         </div>
+
+        <!-- /// Gadgets /// -->
 
         <div class="row section" id="gadgets-row">
             <div class="slide">
@@ -289,24 +253,6 @@
                     </div>
                 </div>
             </div>
-            <!--<div class="slide">-->
-                <!--<div class="title">-->
-                    <!--<h3>Trext</h3>-->
-                    <!--<h4>never send another "arrived safely" text again</h4>-->
-                <!--</div>-->
-                <!--<div class="content">-->
-                    <!--<div class="img">-->
-                        <!--<img src="img/projects/thumbs-v2/trext.png">-->
-                    <!--</div>-->
-                    <!--<div class="text">-->
-                        <!--<p>As teens with new driver licenses and budding independence, my classmates and I often got flooded with missed calls and texts from our parents asking if we’d arrived safely at our destinations. Five of us built Trext, an automatic check-in app, to assuage our parents’ concerns.<br><br>I worked on the app’s user flow and UI design. </p>-->
-                        <!--<div class="buttons-block">-->
-                            <!--<a target="_blank" href="https://www.youtube.com/watch?v=1ZAXjGYXcTc" class="button">pitch video</a>-->
-                            <!--<a href="#" class="button">design process</a>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
         </div>
 
         <div class="row section" id="design-row">
@@ -498,23 +444,23 @@
             </div>
             <div class="modal-body">
                 <p>
+                    Big Data Analytics (CIS 555)<br>
+                    Database & Info Systems (CIS 550)<br>
+                    Algorithms (CIS 320)<br>
+                    Computer Systems (CIS 240)<br>
                     Scalable and Cloud Computing (NETS 212)<br>
-                    Market and Social Systems on the Internet (NETS 150)<br>
-                    Mathematical Foundations of Computer Science (CIS 160)<br>
-                    Programming Languages and Tech II (CIS 121)<br>
-                    Programming Languages and Tech I (CIS 120)<br>
                     <br>
-                    Design and Digital Culture (FNAR 264)<br>
-                    Calculus II (MATH 114)<br>
-                    Physics Principles I (PHYS 140)<br>
-                    Introduction to Mechanical Design (MEAM 101)<br>
+                    Design and Digital Culture (DSGN 264)<br>
+                    Functions and Materials (DSGN 328)<br>
+                    Pixel to Print (DSGN 220)<br>
                     <br>
-                    Introduction to Bioengineering II (BE 101)<br>
-                    Introduction to Bioengineering II (BE 100)<br>
+                    Engineering Entrepreneurship II (EAS 546)<br>
+                    Engineering Entrepreneurship I (EAS 545)<br>
+                    Product Design (IPD 515)<br>
+                    Intellectual Property and Business Law (EAS 507)<br>
                     <br>
                     Negotiations (OIDD 291) <br>
                     Corporate Finance (FNCE 100) <br>
-                    Introduction to Microeconomics (ECON 001)
                 </p>
             </div>
         </div>

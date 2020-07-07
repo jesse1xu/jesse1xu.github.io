@@ -38,19 +38,19 @@ $(document).ready(function()
                 {
                     $("h2").decrypt_effect({
                         speed: 9,
-                        decrypted_text: "I'm Jesse, a junior at the University of Pennsylvania passionate about delivering functionality with unhindered user experience.",
+                        decrypted_text: "I'm Jesse, a senior at the University of Pennsylvania passionate about web development, product management, and app design.",
                         callback: function()
                         {
-                            $("h2").html("I'm Jesse, a junior at the University of Pennsylvania passionate about delivering <strong style=\"color: #87d3ff;\">functionality</strong> with <strong style=\"color: #87d3ff;\">unhindered user experience</strong>.");
+                            $("h2").html("I'm Jesse, a senior at the University of Pennsylvania passionate about <strong style=\"color: #87d3ff;\">entrepreneurship</strong>, <strong style=\"color: #87d3ff;\">product management</strong>, and <strong style=\"color: #87d3ff;\">app design</strong>.");
                         }
                     });
 
                     $("#intro2").decrypt_effect({
                         speed: 9,
-                        decrypted_text: "When I'm not up to my eyes in coursework, I enjoy fiddling in Javascript, cooking, and watching Philly sports teams.",
+                        decrypted_text: "When I'm not up to my eyes in coursework, I enjoy fiddling, cooking, and watching Philly sports teams.",
                         callback: function()
                         {
-                            $("#intro2").html("When I'm not up to my eyes in <a class=\"underline\" data-hover=\"coursework\" data-toggle=\"modal\" data-target=\"#classes-modal\">coursework</a>, I enjoy fiddling in Javascript, cooking, and watching Philly sports teams.");
+                            $("#intro2").html("When I'm not up to my eyes in <a class=\"underline\" data-hover=\"coursework\" data-toggle=\"modal\" data-target=\"#classes-modal\">coursework</a>, I enjoy fiddling, cooking, and watching Philly sports teams.");
                         }
                     });
                 }, 400);
